@@ -3,7 +3,7 @@ NAME    = Span
 CXX     = c++
 CXXFLAGS= -Wall -Wextra -Werror -std=c++98
 
-SRCS    = Main.cpp Span.cpp
+SRCS    = main.cpp 
 OBJS    = $(SRCS:%.cpp=obj/%.o)
 
 INC     = -I.
